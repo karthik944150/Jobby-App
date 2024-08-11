@@ -1,0 +1,169 @@
+/* index.css */
+.similar-job-list-item {
+  list-style-type: none;
+  margin-right: 5px;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  background-color: #7e858e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10pz;
+  margin-right: 16px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title h1 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.header-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+.header-rating .fa-star {
+  color: #f4c542;
+}
+.header-rating p {
+  margin: 0 0 0 4px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.details-section {
+  display: flex;
+  align-items: center;
+}
+
+.details-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.details-item p {
+  margin: 0 0 0 4px;
+  font-size: 16px;
+}
+
+.details-item .md-location-on,
+.details-item .md-work {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.package {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 16px 0;
+}
+
+.description-title {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.description-text {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+  font-family: 'Roboto';
+}
+
+.title {
+  font-weight: bold;
+  color: #ffffff; /* Color for title */
+  font-family: 'Roboto';
+}
+
+.rating {
+  color: #f4c542; /* Color for rating */
+}
+
+.location,
+.employment-type {
+  font-size: 16px;
+  color: #ffffff; /* Color for location and employment type */
+  font-family: 'Roboto';
+}
+/*____________________________________________________________________________________________________*/
+/* Desktop styles */
+@media (min-width: 768px) {
+  .similar-job-list-item{
+    width: 350px;
+  }
+  .company-logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .header-title h1 {
+    font-size: 24px;
+  }
+
+  .header-rating p {
+    font-size: 18px;
+  }
+
+  .details-item p {
+    font-size: 18px;
+  }
+
+  .details-item .md-location-on,
+  .details-item .md-work {
+    font-size: 24px;
+  }
+
+  .package {
+    font-size: 18px;
+  }
+
+  .description-title {
+    font-size: 22px;
+  }
+
+  .description-text {
+    font-size: 18px;
+  }
+
+  li {
+    margin: 24px;
+    padding: 24px;
+  }
+}

@@ -1,0 +1,6 @@
+.job-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000; 
+  height: auto;
+}
